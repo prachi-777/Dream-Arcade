@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DREAM ARCADE</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  
+  <div class="container">
+    <div class="header">
+      <div class="head-left">
+        <img src="images/DreamArcade.png" alt="Logo" />
+      </div>
+      
+
+      <div class="head-right">
+        <a href="#home">HOME</a>
+        <a href="#play-now">PLAY NOW</a>
+        <button onclick="window.location.href='login.html'">Login</button>
+
+        
+        <div id="music-toggle">
+          <img id="sound-icon" src="images/music-on.gif" alt="Sound Toggle" />
+        </div>
+      </div>
+    </div>
+
+    <section id="home" class="hero-section autoBlur ">
+      <div class="hero-vid">
+        <video loop autoplay muted>
+          <source src="videos/HeroVideo.mp4" type="video/mp4" />
+        </video>
+      </div>
+      <div class="hero-info">
+        <h1>DREAM ARCADE</h1>
+        <p>Path of light..</p>
+        <button>Watch trailer</button>
+      </div>
+
+      <h1 class="gaming-text">Gaming</h1>
+      <div class="next-btn">NEXT</div>
+    </section>
+
+
+<section class="about-section">
+  <p>Welcome to Dream Arcade</p>
+  <div class="aboutBlur">
+    <h1>DISCOVER THE WORLD'S LARGEST SHARED ADVENTURE</h1>
+  </div>
+  <img class="stones-img" src="images/stones.png" alt="stones-image">
+  <div class="image-box autoTakeFull">
+      <img src="images/about.webp" alt="about-img" />
+  </div>
+  <h4>Games of games begins - your life is now more interesting than ever</h4>
+  <h5>This game unites all your thoughts and dreams. Play this too to make your mind more active than ever.</h5>
+</section>
+
+
+    <section id="play-now" class="info-section">
+      <h3>Enter the DreamArcade</h3>
+    </section>
+
+    <section class="info-cards">
+      <div class="card autoDisplay">
+        <h1><a href="https://krunker.io" target="_blank" class="game-link">💣 Play Krunker.io </a></h1>
+        <p> Fast-paced FPS</p>
+        <video src="videos/MYstringDestiny.mp4" autoplay loop muted playsinline></video>
+        </div>
+
+      <div class="card autoDisplay">
+        <h1><a href="https://warbrokers.io" target="_blank" class="game-link">🎯 Play War Brokers </a></h1>
+        <p>FPS Battle Game</p>
+        <video src="videos/SEAgod.mp4" autoplay loop muted playsinline></video>
+      </div>
+
+      <div class="card autoDisplay">
+        <h1><a href="https://www.fallenlondon.com" target="_blank" class="game-link">👑PLay Fallen London </a></h1>
+        <p>An anime and gaming inspired various collection</p>
+        <video src="videos/galaxypower.mp4" autoplay loop muted playsinline></video>
+      </div>
+
+      <div class="card autoDisplay">
+        <h1><a href="https://venge.io" target="_blank" class="game-link">⚔️ Play Venge.io </a></h1>
+        <p>Multiplayer shooting game</p>
+        <video src="videos/themaskgirl.mp4" autoplay loop muted playsinline></video>
+      </div>
+
+      <div class="card autoDisplay">
+        <h1><a href="https://www.kingdomofloathing.com/" target="_blank" class="game-link">🐉 Kingdom of Loathing </a></h1>
+        <p>Funny RPG</p>
+        <video src="videos/TheGaze.mp4" autoplay loop muted playsinline></video>
+      </div>
+
+      <div class="card autoDisplay">
+        <h1>MORE COMING SOON</h1>
+      </div>
+    </section>
+
+    <section class="contact-section">
+      <p>Join DreamArcade</p>
+      <h1>LET'S BUILD THE NEW ERA OF GAMING TOGETHER</h1>
+
+      <img class="img1" src="images/swordman.webp" alt="Contact-img">
+      <img class="img2" src="images/contact-1.webp" alt="Contact-img">
+      <img class="img3" src="images/contact-2.webp" alt="Contact-img">
+    </section>
+
+    <section class="footer">
+     <p><a href="https://www.flaticon.com/free-animated-icons/music" title="music animated icons">Music animated icons created by Freepik - Flaticon</a></p>
+     <p>© 2026 DreamArcade. All rights reserved.</p>
+    </section>
+  </div>
+
+
+  <audio id="bg-music" loop>
+    <source src="audio/bamboo-and-paper-lanterns-chinese-music-piano-354298 (1).mp3" type="audio/mp3" />
+  </audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
